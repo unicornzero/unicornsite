@@ -1,4 +1,4 @@
-Unicornsite::Application.routes.draw do
+Unicornsite::Application.routes.draw do  
   get "content_pages/home"
 
   get "content_pages/about"
