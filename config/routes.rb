@@ -1,9 +1,9 @@
 Unicornsite::Application.routes.draw do  
-  get "content_pages/home"
 
-  get "content_pages/about"
-
-  get "content_pages/techgals"
+  root to: 'content_pages#home'
+  match '/home', to: 'content_pages#home'
+  match '/about', to: 'content_pages#about'
+  match '/techgals', to: 'content_pages#techgals'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
