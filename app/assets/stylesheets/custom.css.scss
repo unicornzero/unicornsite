@@ -1,2 +1,20 @@
 @import "bootstrap";
 @import "bootstrap-responsive";
+
+
+/* Header logo */
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.5em;
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
