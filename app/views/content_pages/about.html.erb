@@ -1,12 +1,46 @@
 <% provide(:title, 'About') %>
-
-<p>I'm a Ruby on Rails developer in training. Though new to coding, I have years of experience in other roles in software companies.</p>
-<p>I love unicorns, problem-solving, geekery, and cellos.</p>
+<h4>About Me</h4>
+<p>I'm a Ruby on Rails developer in training. Though new to coding, I have years of experience in other roles in software companies. <br>
+I am fond of unicorns, problem-solving, geekery, and cellos.</p>
 
 <div class="offset1">
+	<h5>Contact</h5>
 	<ul class="unstyled">
 		<li><i class="icon-github icon-large"></i> &nbsp &nbsp  <a href="https://github.com/unicornzero/" target="_blank">UnicornZero</a></dd>
 		<li><i class="icon-linkedin-sign icon-large"></i> &nbsp &nbsp  <a href="http://www.linkedin.com/in/ryleekeys" target="_blank">ryleekeys</a></dd>
 		<li><i class="icon-twitter-sign icon-large"></i> &nbsp &nbsp  <a href="http://twitter.com/ryleekeys" target="_blank">@ryleekeys</a></dd>
+	</ul>
+</div>
+<br>
+<h4>Training Resources</h4>
+<p>My training is self-directed, utilizing a variety of resources, such as books, online coursework, tutorials, and peer collaboration. Here are a few projects I've completed, as well as some of the printed and online resources I've found useful.</p>
+<div class="offset1">
+	<ul class="unstyled">
+		<li><h5>Projects</h5></li>
+		<ul>
+			<li><%= link_to "Micropost App", "http://sampleapp.unicornzero.com", target: "_blank" %>- Authenticated social micropost app built along with the Hartl Rails Tutorial.</li>
+			<li><%= link_to "UnicornZero", root_path, target: "_blank" %>- This website was built from scratch with Ruby, Rails, and related tools. It is hosted on a dedicated Ubuntu cloud server utilizing Apache and Passenger.</li>
+			<li><%= link_to "Suggestotron", "http://suggestotron.unicornzero.com/", target: "_blank" %>- Simple Rails app built during my first Railsbridge workshop.</li>
+		</ul>
+		<li><h5>Books</h5></li>
+		<ul>
+			<li><%= link_to "Practical Object-Oriented Design in Ruby", "http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-ebook/dp/B0096BYG7C/", target: "_blank" %> by Sandi Metz</li>
+			<li><%= link_to "Ruby on Rails Tutorial", "http://www.amazon.com/Ruby-Rails-Tutorial-Addison-Wesley-Professional/dp/0321832051/", target: "_blank" %> by Michael Hartl (Also available online at <%= link_to "railstutorial.org", "http://railstutorial.org", target: "_blank" %></li>
+			<li><%= link_to "The Well-Grounded Rubyist", "http://www.amazon.com/The-Well-Grounded-Rubyist-David-Black/dp/1933988657", target: "_blank" %> by David A. Black</li>
+		</ul>
+		<li><h5>Interactive Courses</h5></li>
+		<ul>
+			<li><%= link_to "TryRuby.org", "http://www.tryruby.org", target: "_blank" %></li>
+			<li><%= link_to "Codecademy", "http://www.codecademy.com", target: "_blank" %></li>
+			<li><%= link_to "CodeSchool", "http://www.codeschool.com", target: "_blank" %></li>
+
+		</ul>
+		<li><h5>Other Resources</h5></li>
+		<ul>
+			<li><%= link_to "Rails Guides", "http://guides.rubyonrails.org/", target: "_blank" %></li>
+			<li><%= link_to "Ruby Rogues podcasts", "http://rubyrogues.com/", target: "_blank" %></li>
+			<li><%= link_to "JumpstartLab Tutorials", "http://tutorials.jumpstartlab.com/", target: "_blank" %></li>
+			<li><%= link_to "Denver-area Meetup groups", techgals_path, target: "_blank" %></li>
+		</ul>
 	</ul>
 </div>
