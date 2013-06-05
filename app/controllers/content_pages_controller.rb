@@ -7,4 +7,8 @@ class ContentPagesController < ApplicationController
 
   def techgals
   end
+
+  def imagesmockup
+  end
+  
 end
