@@ -2,10 +2,14 @@ Unicornsite::Application.routes.draw do
 
   root to: 'content_pages#home'
   match '/home', to: 'content_pages#home'
+
   match '/about', to: 'content_pages#about'
-  match '/techgals', to: 'content_pages#techgals'
+  match '/denvergroups', to: 'content_pages#denvergroups'
+  match '/rubytools', to: 'content_pages#rubytools'
+  match '/studygroup', to: 'content_pages#studygroup'
+
   match '/mock', to: 'content_pages#imagesmockup'
-  match '/rubygroup', to: 'content_pages#rubygroup'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

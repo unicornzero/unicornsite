@@ -5,13 +5,16 @@ class ContentPagesController < ApplicationController
   def about
   end
 
-  def techgals
+  def denvergroups
+  end
+
+  def rubytools
+  end
+
+  def studygroup
   end
 
   def imagesmockup
   end
 
-  def rubygroup
-  end
-  
 end

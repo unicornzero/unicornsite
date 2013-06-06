@@ -8,11 +8,20 @@
 		 <%= link_to "UnicornZero", root_path, id: "logo" %>
 		<div class="nav-collapse">
 			<ul class="nav pull-right">
-				<li><%= link_to "Home", root_path %></li>
-				<li><a href="<%= rubygroup_path %>"><%= image_tag("ruby_icon_small.png", alt: "Ruby", size: "14x18") %> Study Group</a></li>
+				<li><a href="<%= studygroup_path %>"><%= image_tag("ruby_icon_small.png", alt: "Ruby", size: "14x18") %> Study Group</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						Tech Gals
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li><%= link_to "Ruby Tools", rubytools_path %></li>
+						<li><%= link_to "Denver Groups", denvergroups_path %></li>
+						<li><a href="<%= studygroup_path %>"><%= image_tag("ruby_icon_small.png", alt: "Ruby", size: "14x18") %> Study Group</a></li>
+					</ul>
+				</li>
 				<li><%= link_to "About", about_path %></li>
-				<li><%= link_to "Tech Gals", techgals_path %></li>
-			</ul>`
+			</ul>
 		</div>
 	</div>
 </header>
