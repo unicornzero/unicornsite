@@ -1,21 +1,25 @@
 <% provide(:title, 'Tech Gals') %>
-<h2><%= yield(:title) %></h2>
 
-<p>As a tech woman who recently relocated to Denver, Colorado, I've been happy to find so many groups in the area to meet peers, collaborate, and improve my skills. Here are some of my favorites for women and rubyists:</p>
-<h4>Groups for Denver-area tech women:</h4>
-	<div> 
-		<ul class="unstyled">
-			<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "DevChix", "http://www.devchix.com/join-devchix/", target: '_blank' %>- Devchix is a vibrant global community "open to all women who are software developers or want to be software developers!"" </li>
-			<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "Women Who Code", "http://www.meetup.com/Women-Who-Code-Boulder-Denver/", target: "_blank" %>- Our local chapter of Women Who Code hosts regular events and study groups in Boulder and Denver. </li>
-			<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "Ruby Study Group", rubygroup_path, target: '_blank' %>- Study group for female Ruby developers of all skill levels, including beginners and seasoned professionals. </li>
-			<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "RailsBridge", "http://www.meetup.com/Boulder-Denver-Railsbridge/", target: '_blank' %>- Excellent free workshops that introduce women to Ruby on Rails.</li>
-			<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "DeRailed", "http://www.meetup.com/DeRailed/", target: '_blank' %>- Rails user group in Denver, CO.</li>
-			<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "Boulder Ruby User Group", "http://boulderruby.org/", target: '_blank' %>- Ruby user group in Boulder, CO.</li>
-			<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "Girl Geek Dinners", "http://www.meetup.com/Girl-Geek-Dinners-Boulder-Denver/", target: '_blank' %>- Held quarterly in the Denver/Boulder area.</li>
-			<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "New Tech", "http://www.meetup.com/bdnewtech/", target: '_blank' %>- Monthly events in Denver, Boulder, and Ft. Collins.</li>
-		</ul> 
+<div class="span12">
+	<div class="span11">
+		<h2><%= yield(:title) %></h2>
+		&nbsp
+		<h4>Groups for Denver-area tech women:</h4>
+		<p>As a tech woman who recently relocated to Denver, Colorado, I've been happy to find so many groups in the area to meet peers, collaborate, and improve my skills. Here are some of my favorites for women and rubyists:</p>
+			<div class="offset1"> 
+				<ul class="unstyled">
+					<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "DevChix", "http://www.devchix.com/join-devchix/", target: '_blank' %>- Devchix is a vibrant global community "open to all women who are software developers or want to be software developers!"" </li>
+					<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "Women Who Code", "http://www.meetup.com/Women-Who-Code-Boulder-Denver/", target: "_blank" %>- Our local chapter of Women Who Code hosts regular events and study groups in Boulder and Denver. </li>
+					<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "Ruby Study Group", rubygroup_path, target: '_blank' %>- Study group for female Ruby developers of all skill levels, including beginners and seasoned professionals. </li>
+					<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "RailsBridge", "http://www.meetup.com/Boulder-Denver-Railsbridge/", target: '_blank' %>- Excellent free workshops that introduce women to Ruby on Rails.</li>
+					<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "DeRailed", "http://www.meetup.com/DeRailed/", target: '_blank' %>- Rails user group in Denver, CO.</li>
+					<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "Boulder Ruby User Group", "http://boulderruby.org/", target: '_blank' %>- Ruby user group in Boulder, CO.</li>
+					<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "Girl Geek Dinners", "http://www.meetup.com/Girl-Geek-Dinners-Boulder-Denver/", target: '_blank' %>- Held quarterly in the Denver/Boulder area.</li>
+					<li> &nbsp <i class="icon-map-marker"></i> &nbsp <%= link_to "New Tech", "http://www.meetup.com/bdnewtech/", target: '_blank' %>- Monthly events in Denver, Boulder, and Ft. Collins.</li>
+				</ul> 
+			</div>
+		<%= render 'layouts/rsglink' %>
+		<p><strong>Denver Study Group</strong>- In May we had our first Denver Ruby study group organized through the Boulder-Denver Women Who Code chapter. Our next one is scheduled for 6:30pm on Thursday, June 27th, 2013. RSVP here: <a href="http://www.meetup.com/Women-Who-Code-Boulder-Denver/events/122702282/" target="_blank">Women Who Code- Denver Ruby Study Group #2</a></p>
 	</div>
-<%= render 'layouts/rsglink' %>
-<p><strong>Denver Study Group</strong>- In May we had our first Denver Ruby study group organized through the Boulder-Denver Women Who Code chapter. Our next one is scheduled for 6:30pm on Thursday, June 27th, 2013. RSVP here: <a href="http://www.meetup.com/Women-Who-Code-Boulder-Denver/events/122702282/" target="_blank">Women Who Code- Denver Ruby Study Group #2</a></p>
-
+</div>
 
