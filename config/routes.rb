@@ -5,6 +5,7 @@ Unicornsite::Application.routes.draw do
   match '/about', to: 'content_pages#about'
   match '/techgals', to: 'content_pages#techgals'
   match '/mock', to: 'content_pages#imagesmockup'
+  match '/rubygroup', to: 'content_pages#rubygroup'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

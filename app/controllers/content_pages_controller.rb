@@ -10,5 +10,8 @@ class ContentPagesController < ApplicationController
 
   def imagesmockup
   end
+
+  def rubygroup
+  end
   
 end
