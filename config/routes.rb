@@ -10,8 +10,9 @@ Unicornsite::Application.routes.draw do
 
   match '/mock', to: 'content_pages#imagesmockup'
 
-  get '/signin', to: redirect("https://docs.google.com/forms/d/1xt4CiSBmWeRgIg0dUvzOWuTZDVG7Ni7ATbQeYsyy89s/viewform")
+  get '/signin', to: redirect("https://docs.google.com/forms/d/1lK2AbBgwbcP6fF8t24A2WTubh-KQKXh6QDCKl_Av1tY/viewform")
 
+  get '/survey', to: redirect("https://docs.google.com/forms/d/1P8CtWsKR8kemiUBZQ7n6YC5sLe0BKsA4cUginLQuRvQ/viewform")
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
